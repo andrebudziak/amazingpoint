@@ -1,0 +1,101 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0" background="lay/barra.jpg">
+<form id="Form1" runat="server">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="278">
+	<tr>
+		<td>
+		<div align="center">
+			<table border="0" width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td bgcolor="#82CFC5" background="lay/fundobase.jpg">&nbsp;</td>
+					<td width="800">
+					<object classid="clsid:D27CDB6E-AE6D-11CF-96B8-444553540000" id="obj1" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" border="0" width="800" height="278">
+						<param name="movie" value="swf/topo.swf">
+						<param name="quality" value="High">
+						<param name="wmode" value="transparent">
+						<embed src="swf/topo.swf" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" name="obj1" width="800" height="278" quality="High" wmode="transparent"></object>
+					</td>
+					<td bgcolor="#82CFC5" background="lay/fundobase.jpg">&nbsp;</td>
+				</tr>
+			</table>
+		</div>
+		</td>
+	</tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td>
+		<div align="center">
+			<table border="0" width="800" cellspacing="0" cellpadding="0">
+				<tr>
+					<td align="center">
+                       <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                       </asp:ContentPlaceHolder>
+				    </td>
+				</tr>
+			</table>
+		</div>
+		</td>
+	</tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="0" background="lay/ial_sf_doodledborder.png" height="30">
+	<tr>
+		<td>&nbsp;</td>
+	</tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="0" bgcolor="#82CFC5">
+	<tr>
+		<td>&nbsp;</td>
+	</tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="0" bgcolor="#30BFE1">
+	<tr>
+		<td>
+		<p align="center" style="margin-top: 15px; margin-bottom: 0"><b>
+		<font face="Verdana" style="font-size: 9pt" color="#FFFFFF">
+		<a style="text-decoration: none" href="index.html">
+		<font color="#FFFFFF">HOME</font></a> | 
+		<a href="festas.html" style="text-decoration: none">
+		<font color="#FFFFFF">FESTAS</font></a> | 
+		<a href="estrutura.html" style="text-decoration: none">
+		<font color="#FFFFFF">ESTRUTURA</font></a> | 
+		<a href="servicos.html" style="text-decoration: none">
+		<font color="#FFFFFF">SERVIÇOS</font></a> | 
+		<a href="album.aspx" style="text-decoration: none">
+		<font color="#FFFFFF">GALERIA</font></a> | 
+		<a href="login.aspx" style="text-decoration: none">
+		<font color="#FFFFFF">CONVITE VIRTUAL</font></a> | 
+		<a href="contato.aspx" style="text-decoration: none">
+		<font color="#FFFFFF">CONTATO</font></a></font></b></p>
+			<p style="margin-top: 0; margin-bottom: 0" align="center">
+			&nbsp;</p>
+		<p style="margin-top: 0; margin-bottom: 0" align="center">
+			&nbsp;</p>
+		<p style="margin-top: 0; margin-bottom: 0" align="center">
+			<b><font face="Verdana" color="#FFFFFF" style="font-size: 11pt">Rua 
+			Petit Carneiro, 352 - Água Verde - Curitiba - Tel. 
+			(41) 3018-1437</font></b></p>
+		<p style="margin-top: 0; margin-bottom: 0" align="center">
+			&nbsp;</p>
+		<p style="margin-top: 0; margin-bottom: 0" align="center">
+			<font face="Verdana" color="#FFFFFF" size="2">@Diretos 
+			reservados ao Buffet Infantil Kids</font></p>
+			<p style="margin-top: 0; margin-bottom: 0" align="center">
+			<font face="Verdana" color="#FFFFFF" size="2">Web 
+			Designer Performance Publicidade</font></p>
+		<p style="margin-top: 14px; margin-bottom: 0">&nbsp;</td>
+	</tr>
+</table>
+</form>
+</body>
+
+</html>

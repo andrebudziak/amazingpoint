@@ -1,0 +1,90 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Convite.master.cs" Inherits="Convite" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Amazing Buffet Infantil</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<asp:ContentPlaceHolder ID="HeadContent" runat="server">
+</asp:ContentPlaceHolder>
+
+</head>
+
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0" bgcolor="#B7E8FF">
+<form id="Form1" runat="server">
+   <asp:Label ID="lblHash" runat="server" Text=""></asp:Label>            
+   <asp:Label ID="lblIdUsuario" runat="server" Text=""></asp:Label>            
+
+<div align="center">
+	<table border="0" width="800" cellspacing="0" cellpadding="0" bgcolor="#B7E8FF">
+		<tr>
+			<td align="center">
+			<object classid="clsid:D27CDB6E-AE6D-11CF-96B8-444553540000" id="obj5" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" border="0" width="800" height="168">
+				<param name="movie" value="swf/topo2.swf">
+				<param name="quality" value="High">
+				<param name="wmode" value="transparent">
+				<embed src="swf/topo2.swf" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" name="obj5" width="800" height="168" quality="High" wmode="transparent"></object>
+			</td>
+		</tr>
+		<tr>
+			<td align="center" height="450" width="800" valign="top">
+			<table border="0" width="729" cellspacing="0" cellpadding="0" background="lay/topo.png" height="245">
+				<tr>
+					<td align="justify" valign="top">
+					<table border="0" width="100%" cellspacing="0" cellpadding="0" height="45">
+						<tr>
+							<td>
+							<p align="center" style="margin-right: 130px; margin-top: 20px; margin-bottom: 0">
+							<img border="0" src="lay/convte.png" width="144" height="25"></td>
+						</tr>
+					</table>
+					</td>
+				</tr>
+			</table>
+			<table border="0" width="729" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="33">&nbsp;</td>
+					<td width="699" bgcolor="#FFFFFF">
+                        <div id="menu" style="height:20px;">                          
+                            <ul>                             
+                                <li><asp:LinkButton ID="lbtnConvite" runat="server" onclick="lbtnConvite_Click">[Convite]</asp:LinkButton>
+                                </li>
+                                <li><asp:LinkButton ID="lbtnEnviarConvite" runat="server" onclick="lbtnEnviarConvite_Click">[Enviar Convite]</asp:LinkButton>
+                                </li>
+                                <li><asp:LinkButton ID="lbtnAgradecimento" runat="server" onclick="lbtnAgradecimento_Click">[Agradecimento]</asp:LinkButton>
+                                </li>                                    
+                            </ul>
+                        </div>
+
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                        </asp:ContentPlaceHolder>
+					</td>
+				</tr>
+			</table>
+			<table border="0" width="729" cellspacing="0" cellpadding="0" height="18">
+				<tr>
+					<td width="36">&nbsp;</td>
+					<td width="693">
+					<img border="0" src="lay/base.png" width="696" height="18"></td>
+				</tr>
+			</table>
+			<p>&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center">
+			<object classid="clsid:D27CDB6E-AE6D-11CF-96B8-444553540000" id="obj6" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" border="0" width="800" height="142">
+				<param name="movie" value="swf/base2.swf">
+				<param name="quality" value="High">
+				<param name="wmode" value="transparent">
+				<embed src="swf/base2.swf" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" name="obj6" width="800" height="142" quality="High" wmode="transparent"></object>
+			</td>
+		</tr>
+	</table>
+</div>
+</form>
+</body>
+
+</html>
